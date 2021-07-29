@@ -1,0 +1,18 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrapper {
+    display: grid;
+    height: 75vh;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#search-box {
+    height: 10%;
+    align-self: center;
+    border-radius: 40px;
+    border-color: black;
+    
+}
